@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_pollid",
+						"type": "uint256"
+					}
+				],
+				"name": "PollCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_question",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_thumb",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "_options",
+						"type": "bytes32[]"
+					}
+				],
+				"name": "createPoll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pollid",
+						"type": "uint256"
+					}
+				],
+				"name": "getPoll",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64[]",
+						"name": "",
+						"type": "uint64[]"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalPolls",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					}
+				],
+				"name": "getVoter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pollid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_vote",
+						"type": "uint64"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src\\contracts\\poll.sol": "PollContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src\\contracts\\poll.sol": {
+			"keccak256": "0xd797bc6c9587ccf3b0c4082bf429f886d7baf9fbf63d5959397d4d018fc8fe4d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3aa14fdc5ba6a34787079b1b10b4847bf4bf71212800b0b09bc4e76b9a30eb29",
+				"dweb:/ipfs/QmVZiSKxdyzjKvWMsxVUXgCAXoX2YFfD6c5ZLfT5sNyDEE"
+			]
+		}
+	},
+	"version": 1
+}

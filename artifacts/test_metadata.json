@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src\\contracts\\test.sol": "test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src\\contracts\\test.sol": {
+			"keccak256": "0xe15f66f06a9b9481bcab70ada38ecbd83fc29a477582dc7b85af0db55d031345",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://98bad74a36f67424301026198ab206970105a115e27115433968481fb68be684",
+				"dweb:/ipfs/QmWTFSja34vKSDE7PwJrd4pNYDYkeAUx8JufjrrM5KGxuy"
+			]
+		}
+	},
+	"version": 1
+}
